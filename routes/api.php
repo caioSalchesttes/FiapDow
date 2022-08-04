@@ -11,5 +11,5 @@ Route::controller(AuthController::class)->group(function () {
 
 Route::controller(ScoreController::class)->middleware('auth:api')->group(function () {
     Route::get('score', 'index');
-    Route::post('score', 'index');
+    Route::post('score', 'store');
 }); 
