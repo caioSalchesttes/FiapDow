@@ -238,7 +238,7 @@
                         <div class="container">
                             <!--begin::Row-->
                             <div class="row g-0 g-xl-5 g-xxl-8">
-                                <div class="col-xl-4">
+                                <div class="col-sm-4 col-xl-4 d-none d-sm-block">
                                     <!--begin::Engage Widget 5-->
                                     <div class="card card-stretch mb-5 mb-xxl-8">
                                         <!--begin::Body-->
@@ -254,7 +254,7 @@
                                     </div>
                                     <!--end::Engage Widget 5-->
                                 </div>
-                                <div class="col-xl-8">
+                                <div class="col-sm-8 col-xl-8">
                                     <!--begin::Table Widget 1-->
                                     <div class="card card-stretch mb-5 mb-xxl-8">
                                         <!--begin::Header-->
