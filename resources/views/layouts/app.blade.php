@@ -20,6 +20,7 @@
     <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->
+    @vite('resources/js/app.js')
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -260,7 +261,7 @@
                                         <!--begin::Header-->
                                         <div class="card-header border-0 pt-5">
                                             <h3 class="card-title align-items-start flex-column">
-                                                <span class="card-label fw-bolder text-dark fs-3">TOP 5 Equipe</span>
+                                                <span class="card-label fw-bolder text-dark fs-3">TOP 52 Equipe</span>
                                                 <span class="text-muted mt-2 fw-bold fs-6">890,344 Pontos</span>
                                             </h3>
                                             <div class="card-toolbar">
@@ -5869,8 +5870,10 @@
     <script src="assets/js/custom/modals/create-app.js"></script>
     <script src="assets/js/custom/modals/select-location.js"></script>
     <script src="assets/js/custom/modals/users-search.js"></script>
+    <script src="assets/js/custom/modals/users-search.js"></script>
     <!--end::Page Custom Javascript-->
     <!--end::Javascript-->
+    
 </body>
 <!--end::Body-->
 

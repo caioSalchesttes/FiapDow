@@ -9,7 +9,7 @@ Route::controller(AuthController::class)->group(function () {
     Route::post('register', 'register');
 });
 
-Route::controller(ScoreController::class)->middleware('auth:api')->group(function () {
+Route::controller(ScoreController::class)->group(function () {
     Route::get('score', 'index');
     Route::post('score', 'store');
 }); 
