@@ -17,6 +17,11 @@ class ScoreController extends Controller
 
     public function new(Request $request)
     {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'hash' => 'required|string|max:255',
+        ]);
+
         Teams::firstOrCreate([
             'name' => 'beta',
         ]);
