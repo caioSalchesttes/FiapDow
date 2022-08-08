@@ -8,4 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class Members extends Model
 {
     use HasFactory;
+
+    public function score()
+    {
+        return $this->hasMany(Score::class, 'member_id');
+    }
+
+    public function team()
+    {
+        return $this->belongsTo(Teams::class);        
+    }
 }
