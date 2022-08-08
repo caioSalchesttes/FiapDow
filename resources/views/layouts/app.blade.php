@@ -1820,7 +1820,7 @@
                                                                         <a href="#"
                                                                             class="text-gray-800 fw-bolder text-hover-primary fs-6">{{$mb->name}}</a>
                                                                         <span
-                                                                            class="text-muted fw-bold d-block mt-1">{{$mb->team->name}}</span>
+                                                                            class="text-muted fw-bold d-block mt-1">{{$mb->team->name}} - {{$mb->hash}}</span>
                                                                     </td>
                                                                     <td></td>
                                                                     <td class="text-end">
