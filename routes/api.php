@@ -14,4 +14,4 @@ Route::controller(ScoreController::class)->group(function () {
     Route::post('score', 'store');
 }); 
 
-Route::get('newMember', ScoreController::class . 'new');
+Route::get('newMember', ScoreController::class, 'new');
