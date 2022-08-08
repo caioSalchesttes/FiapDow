@@ -26,5 +26,9 @@ class ScoreController extends Controller
             'team_id' => 1,
             'hash' => $request->hash,
         ]);
+
+        return response()->json([
+            'message' => 'success',
+        ]);
     }
 }
